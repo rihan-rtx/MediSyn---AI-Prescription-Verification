@@ -1,0 +1,31 @@
+drug1,drug2,interaction_description,severity,rxcui1,rxcui2,mechanism,clinical_effect
+aspirin,ibuprofen,Increased risk of bleeding when NSAIDs are combined. Both drugs affect platelet function and can increase bleeding time,moderate,1191,5640,platelet_inhibition,bleeding_risk
+warfarin,aspirin,Major interaction - significantly increased bleeding risk due to additive anticoagulant effects. Monitor INR closely,major,11289,1191,anticoagulation,bleeding_risk
+metformin,alcohol,Alcohol may affect blood glucose control and increase risk of lactic acidosis with metformin,minor,6809,alcohol,metabolic_interference,glucose_control
+lisinopril,potassium,ACE inhibitors can increase potassium levels leading to hyperkalemia,moderate,29046,potassium,electrolyte_retention,hyperkalemia
+atorvastatin,simvastatin,Combining multiple statins increases risk of myopathy and rhabdomyolysis,major,83367,36567,muscle_toxicity,myopathy
+digoxin,furosemide,Loop diuretics can cause electrolyte imbalances that increase digoxin toxicity,moderate,3407,4603,electrolyte_depletion,cardiac_toxicity
+warfarin,ibuprofen,NSAIDs increase bleeding risk in patients on anticoagulants through multiple mechanisms,major,11289,5640,bleeding_enhancement,hemorrhage
+metoprolol,verapamil,Combining beta-blockers with calcium channel blockers can cause excessive bradycardia and heart block,major,51845,2670,cardiac_conduction,bradycardia
+omeprazole,clopidogrel,PPIs may reduce the antiplatelet effect of clopidogrel by inhibiting CYP2C19,moderate,7646,32968,enzyme_inhibition,reduced_efficacy
+insulin,glipizide,Combining insulin with sulfonylureas increases hypoglycemia risk,moderate,5856,4821,additive_hypoglycemia,low_blood_sugar
+amlodipine,simvastatin,Calcium channel blockers can increase statin levels leading to muscle toxicity,moderate,17767,36567,enzyme_inhibition,myopathy
+phenytoin,warfarin,Phenytoin can both increase and decrease warfarin effects depending on duration of therapy,major,8183,11289,enzyme_induction,anticoagulation_changes
+lithium,lisinopril,ACE inhibitors can increase lithium levels leading to toxicity,major,6448,29046,renal_clearance_reduction,lithium_toxicity
+tramadol,sertraline,Combining tramadol with SSRIs increases serotonin syndrome risk,major,10689,36437,serotonin_excess,serotonin_syndrome
+ketoconazole,simvastatin,Antifungals strongly inhibit statin metabolism increasing myopathy risk,major,6470,36567,enzyme_inhibition,severe_myopathy
+amiodarone,warfarin,Amiodarone significantly increases warfarin effect requiring dose reduction,major,703,11289,enzyme_inhibition,excessive_anticoagulation
+ciprofloxacin,theophylline,Fluoroquinolones inhibit theophylline metabolism causing toxicity,major,2551,2153,enzyme_inhibition,theophylline_toxicity
+digoxin,quinidine,Quinidine doubles digoxin levels through P-glycoprotein inhibition,major,3407,9068,transporter_inhibition,digoxin_toxicity
+carbamazepine,oral_contraceptives,Carbamazepine reduces contraceptive efficacy through enzyme induction,moderate,2002,contraceptive,enzyme_induction,pregnancy_risk
+allopurinol,azathioprine,Allopurinol blocks azathioprine metabolism causing severe bone marrow toxicity,major,2923,446,enzyme_inhibition,bone_marrow_suppression
+fluoxetine,tramadol,SSRIs with tramadol significantly increase serotonin syndrome risk,major,4493,10689,serotonin_excess,serotonin_syndrome
+erythromycin,digoxin,Macrolide antibiotics increase digoxin absorption and reduce clearance,moderate,4053,3407,absorption_clearance,digoxin_toxicity
+isoniazid,phenytoin,Isoniazid inhibits phenytoin metabolism causing toxicity symptoms,moderate,6038,8183,enzyme_inhibition,phenytoin_toxicity
+rifampin,warfarin,Rifampin strongly induces warfarin metabolism reducing anticoagulant effect,major,9384,11289,enzyme_induction,reduced_anticoagulation
+gemfibrozil,simvastatin,Fibrates with statins dramatically increase myopathy and rhabdomyolysis risk,major,25057,36567,muscle_toxicity,severe_myopathy
+cimetidine,theophylline,H2 blockers inhibit theophylline clearance causing toxicity,moderate,2756,2153,enzyme_inhibition,theophylline_toxicity
+verapamil,digoxin,Calcium channel blockers increase digoxin levels through multiple mechanisms,moderate,2670,3407,clearance_reduction,digoxin_toxicity
+propranolol,insulin,Beta-blockers can mask hypoglycemia symptoms and prolong recovery,moderate,8787,5856,symptom_masking,hypoglycemia_risk
+spironolactone,lisinopril,Combining potassium-sparing diuretics with ACE inhibitors causes hyperkalemia,major,9997,29046,potassium_retention,dangerous_hyperkalemia
+clarithromycin,carbamazepine,Macrolides inhibit carbamazepine metabolism causing toxicity,major,21212,2002,enzyme_inhibition,carbamazepine_toxicity
